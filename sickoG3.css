@@ -2,7 +2,7 @@
 body{
  font-family: 'Patrick Hand SC', cursive ;
   font-size: 22px;
-  background-color: #92A8D1;
+  background-color: #4C7FB2;
   }
 .header {
   overflow: hidden;
@@ -44,7 +44,7 @@ body{
   background-color: #D6ED17FF; 
   }
 #form-outer {
-  background-color: #EADEDB;
+  background-color:#B3C7D6FF;
   margin: 0 auto;
   border-radius: 4px;
   width: 75%;
@@ -75,13 +75,13 @@ body{
 article > div {
   color: white;
   text-align: center;
-    background-color: pink ;
+  background-color: #2460A7FF;
   }
 /* Right */
   article footer {
     text-align: center;
-    background-color: #D6ED17FF;
-    color:  #5B5EA6;
+    background-color: #B3C7D6FF;
+    color: #00539CFF;
     
   }
 
@@ -210,7 +210,11 @@ body {
   background-color: #79C753;
 }
 
-
+@media screen and (max-width: 500px){
+  #vidresp{
+    width: 150px;
+    height: 150px;
+  }
 
 
 
