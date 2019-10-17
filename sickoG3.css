@@ -2,11 +2,11 @@
 body{
  font-family: 'Patrick Hand SC', cursive ;
   font-size: 22px;
-  background-color: #4C7FB2;
+  background-color: #107c10;
   }
 .header {
   overflow: hidden;
-  background-color: #034F84;
+  background-color: black;
   padding: 20px 10px;
 }
 .header a{
@@ -40,15 +40,15 @@ body{
 .container {
   padding: 0px 16px;
   text-align: center;
-  color: #5B5EA6;
+  color: #107c10;
   background-color: #D6ED17FF; 
   }
 #form-outer {
-  background-color:#B3C7D6FF;
+  background-color:black;
   margin: 0 auto;
   border-radius: 4px;
   width: 75%;
-  color: #00539CFF;
+  color:white;
   font-size: 22px;
 }
 @media screen and (max-width: 500px){
@@ -75,13 +75,13 @@ body{
 article > div {
   color: white;
   text-align: center;
-  background-color: #2460A7FF;
+  background-color: green;
   }
 /* Right */
   article footer {
     text-align: center;
-    background-color: #B3C7D6FF;
-    color: #00539CFF;
+    background-color: black;
+    color: white;
     
   }
 
@@ -215,11 +215,20 @@ body {
     width: 150px;
     height: 150px;
   }
-img {
+  img {
   max-width: 100%;
   height: auto;
+  }
 }
-
+  a:link {
+  color: black;
+}
+a:hover {
+  color:yellow;
+}
+ a:active{
+   color: white;
+}
 
 
 
